@@ -3,6 +3,11 @@ import './App.css';
 import Input from './Input';
 import { useEffect, useRef } from 'react';
 
+// if you want to autoscroll to component
+// or if you want to focus on input
+// when you initialize app 
+// you can use forwardRef 
+
 function App() {
   const passwordRef = useRef();
 
